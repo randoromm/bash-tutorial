@@ -1,0 +1,12 @@
+total 44
+drwxrwxr-x  3 russo russo 4096 Oct 31 18:38 .
+drwxr-xr-x 30 russo russo 4096 Oct 31 18:38 ..
+-rwxrwxr-x  1 russo russo  471 Oct 31 17:41 beerScript.sh
+-rwxrwxr-x  1 russo russo  362 Oct 30 21:10 carScript.sh
+-rwxrwxr-x  1 russo russo  104 Oct 30 21:00 countDownScript.sh
+-rwxrwxr-x  1 russo russo  391 Oct 30 20:29 helloScript.sh
+-rwxrwxr-x  1 russo russo  171 Oct 31 18:17 inputArgumentsScript.sh
+-rwxrwxr-x  1 russo russo  365 Oct 30 22:04 pyramidScript.sh
+-rwxrwxr-x  1 russo russo   77 Oct 31 18:23 readFileScript.sh
+drwxrwxr-x  2 russo russo 4096 Oct 31 18:37 shell-gen-files
+-rwxrwxr-x  1 russo russo  280 Oct 31 18:38 stdOutputScript.sh
