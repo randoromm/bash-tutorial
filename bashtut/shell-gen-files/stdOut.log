@@ -1,12 +1,15 @@
-total 44
-drwxrwxr-x  3 russo russo 4096 Oct 31 18:38 .
-drwxr-xr-x 30 russo russo 4096 Oct 31 18:38 ..
--rwxrwxr-x  1 russo russo  471 Oct 31 17:41 beerScript.sh
--rwxrwxr-x  1 russo russo  362 Oct 30 21:10 carScript.sh
--rwxrwxr-x  1 russo russo  104 Oct 30 21:00 countDownScript.sh
--rwxrwxr-x  1 russo russo  391 Oct 30 20:29 helloScript.sh
--rwxrwxr-x  1 russo russo  171 Oct 31 18:17 inputArgumentsScript.sh
--rwxrwxr-x  1 russo russo  365 Oct 30 22:04 pyramidScript.sh
--rwxrwxr-x  1 russo russo   77 Oct 31 18:23 readFileScript.sh
-drwxrwxr-x  2 russo russo 4096 Oct 31 18:37 shell-gen-files
--rwxrwxr-x  1 russo russo  280 Oct 31 18:38 stdOutputScript.sh
+total 56
+drwxrwxr-x 3 russo russo 4096 Oct 31 20:33 .
+drwxrwxr-x 4 russo russo 4096 Oct 31 20:57 ..
+-rwxrwxr-x 1 russo russo  471 Oct 31 20:10 beerScript.sh
+-rwxrwxr-x 1 russo russo  362 Oct 31 20:10 carScript.sh
+-rwxrwxr-x 1 russo russo  104 Oct 31 20:10 countDownScript.sh
+-rwxrwxr-x 1 russo russo   89 Oct 31 20:10 exportScript.sh
+-rwxrwxr-x 1 russo russo  427 Oct 31 20:30 helloScript.sh
+-rwxrwxr-x 1 russo russo  119 Oct 31 20:10 importScript.sh
+-rwxrwxr-x 1 russo russo  171 Oct 31 20:10 inputArgumentsScript.sh
+-rwxrwxr-x 1 russo russo  365 Oct 31 20:10 pyramidScript.sh
+-rwxrwxr-x 1 russo russo   77 Oct 31 20:10 readFileScript.sh
+drwxrwxr-x 2 russo russo 4096 Oct 31 20:10 shell-gen-files
+-rwxrwxr-x 1 russo russo  352 Oct 31 20:33 stdOutputScript.sh
+-rwxrwxr-x 1 russo russo  663 Oct 31 20:10 stringProcessScript.sh
