@@ -12,5 +12,5 @@ timestamp() {
     date +"%Y-%m-%dT%T.%3N%z"
 }
 
-echo "...Generating 'hello world' log @ ~/bashtut/shell-gen-files/..." 
-echo "$(timestamp) - Hello world!" >> ~/bashtut/shell-gen-files/HelloWorldLog.log
+echo "...Generating 'hello world' log @ ~/git/bash-tutorial/bashtut/shell-gen-files/..." 
+echo "$(timestamp) - Hello world!" >> ~/git/bash-tutorial/bashtut/shell-gen-files/HelloWorldLog.log
