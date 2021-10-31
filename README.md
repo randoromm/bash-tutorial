@@ -33,7 +33,7 @@ cd git
 ~~~
 git clone https://github.com/randoromm/bash-tutorial.git
 ~~~
-##### OR (with SSH)
+***OR (with SSH)***
 ~~~
 git clone git@github.com:randoromm/bash-tutorial.git
 ~~~
