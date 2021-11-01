@@ -16,7 +16,7 @@ then
 fi
 
 #
-updatedFiles=$(git diff --name-only --staged) 
+updatedFiles=( $(git diff --name-only --staged) )
 declare -p updatedFiles
 RET_CODE=$?
 if test $RET_CODE -ne 0
