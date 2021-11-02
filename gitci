@@ -1,8 +1,5 @@
 #! /bin/bash
 
-#. /imde/switch/switchde
-umask 000
-
 #User right checking part... Nothing changes here
 echo "Bitte geben Sie einen Kommentar ein: \c"
 read Kommentar
@@ -16,13 +13,13 @@ then
 fi
 
 #
-updatedFiles=( $(git diff --name-only --staged) )
-declare -p updatedFiles
-RET_CODE=$?
-if test $RET_CODE -ne 0
-then
-    echo "Fehler=$RET_CODE bei git diff"
-fi
+#updatedFiles=( $(git diff --name-only --staged) )
+#declare -p updatedFiles
+#RET_CODE=$?
+#if test $RET_CODE -ne 0
+#then
+#    echo "Fehler=$RET_CODE bei git diff"
+#fi
 
 #
 git commit -m "$Kommentar"
@@ -40,7 +37,8 @@ then
     echo "Fehler=$RET_CODE bei git push"
 fi
 
-#
+: '
 DATEINAME=`basename $1`
 COMMENT=`echo $Kommentar |sed s/\ /~/g`
 cp $1 ~/git/bash-tutorial/imde-dev-gitci-script/imde/data/dfue/ifs_git_install/"${LOGNAME}"@"${COMMENT}"@"$DATEINAME"
+'
